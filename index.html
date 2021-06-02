@@ -1,0 +1,45 @@
+
+<html >
+    <title>MobileNet Image Indentifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body style="background-color: cyan;">
+    <center >
+<h1 style="background-color:white; font-family: cursive; color: black; margin-top: 0px;">Image Indentifier App<img style="height: 200px; width: 200px;"src="logo.gif"></h1>
+  <div class="col-sm-6 col-xs-12 webcamview"><label>Webcam View</label>
+    <div id="camera"></div>
+    <button id="ci" onclick="takeimage()">Capture Image</button>
+  </div>
+  <div class="col-sm-6 col-xs-12 snapshot"><label>Snapshot</label>
+    <div id="result"></div>
+    <button id="s">Anaylze Image</button>
+  </div>
+</center>
+
+<div id="resultdiv">
+<img id="bulb"src="blub.gif">
+<h2 id="final_result"></h2>
+</div>
+<h3 id="footer">Made by Sahas Smarties</h3>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
